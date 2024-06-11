@@ -1,0 +1,55 @@
+/* src/styles/RegistrationForm.css */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #faf8f8;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+.btn1{
+    width: 120px;
+    background-color: rgb(24, 215, 24);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(61, 255, 109);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.popup button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: red;
+    color: white;
+}
